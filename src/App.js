@@ -1,13 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
-
+// import "./App.css";
+import ColorBox from "./features/ColorBox";
+import TodoFeatures2 from "./features/Todo2";
+// import TodoFeatures2 from "./features/Todo2";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Nghia</p>
-      </header>
+      <ColorBox />
+      <TodoFeatures2 />
     </div>
   );
 }
